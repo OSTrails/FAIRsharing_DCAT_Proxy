@@ -17,5 +17,5 @@ WORKDIR /server
 RUN gem update --system
 RUN gem install bundler:2.3.12
 COPY . /server
-WORKDIR /server/fdp_index_proxy
+WORKDIR /server/fs_dcat_proxy
 RUN bundle install
